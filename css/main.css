@@ -1,0 +1,43 @@
+body {
+    background-image: url("css/image.jpeg");
+    background-color: #cccccc;
+}
+.item-container {
+  background-color: #E6E6FF;
+  margin: 1.5em 2em;
+  padding: 1em;
+  border-radius: 3px;
+}
+
+.item-container p {
+  font-size: 1.8em;
+}
+
+.list-title {
+  font-size: 7em;
+  margin-bottom: 0.5em;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.drag-box {
+  display: none;
+  margin-top: 1em;
+  font-family: 'Cabin', serif;
+}
+
+.complete-button {
+  margin-right: 0.5em;
+}
+
+.red {
+  color: #FF0000;
+}
+
+.blue {
+  color: #50ABF9;
+}
+
+.list-items {
+  font-family: 'Cabin', serif;
+}
+

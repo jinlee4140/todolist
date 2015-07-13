@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  <script src="js/app.js"></script>
+
+  <meta charset="UTF-8">
+  <title>Todo List</title>
+
+ 
+
+
+</head>
+<body>
+  <section class="col-xs-12 col-sm-8 col-sm-offset-2 list-area">
+    <h1 class="text-uppercase text-center list-title">TO<span class="blue">DO</span> <i class="fa fa-list-alt black"></i></h1>
+    <p class="text-uppercase text-center"> Created by: James Lee </p>
+
+
+
+	<form class="text-center">
+      <div class="form-group">
+      	<label for="inputTask">Todo list</label>
+        <input name="item-input" type="text" class="form-control" id="inputTask" placeholder="What is your todo?">
+      </div>
+      <button class="btn btn-info add-button">Add</button>
+    </form>
+
+    <h4 class="text-center drag-box"><i class="fa fa-exclamation-circle red"></i> Drag boxes to sort!</h4>
+    <hr>
+    <div class="list-items"></div>
+  </section>
+</body>
+</html>
